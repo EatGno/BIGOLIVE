@@ -38,7 +38,7 @@ def getStreamData(id):
 def getPlaylist(id):
   url = "https://www.bigo.tv/OInterface/getVideoParam?bigoId=" + id
   headers = {
-    "User-Agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot"
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0"
   }
 
   res = requests.request("GET", url, headers=headers)
