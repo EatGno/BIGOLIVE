@@ -4,7 +4,7 @@
 
 3. }"Users"}  IDBIGOLIVE, bigo
 
-4. "python3 main.py -uIDBIGOLIVE -pPASSWORDBIGOLIVE -m bigo --from-start --playlist PLAYLIST --concurrent"
+4. "python3 main.py -u IDBIGOLIVE -p PASSWORDBIGOLIVE -m bigo --from-start --playlist PLAYLIST --concurrent"
 
 
 
