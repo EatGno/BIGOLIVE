@@ -20,6 +20,7 @@ def getStreamData(id):
     "Accept-Language": "en-US,en;q=0.5",
     "Accept-Encoding": "gzip, deflate, br",
     "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "X-Powered-By": "PHP/7.1.33",
     "Origin": "https://www.bigo.tv",
     "DNT": "1",
     "Connection": "keep-alive",
