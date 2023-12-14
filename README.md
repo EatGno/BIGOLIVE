@@ -1,6 +1,6 @@
 🌟 Welcome to the Exclusive World of 🧠𝐿𝒾𝑜𝓃 🦁🤯 on Bigo Live! 🌟
 
-👋 Greetings, esteemed audience! I am PetitLion18, your dedicated host on Bigo Live, where sophistication meets entertainment. Join me for an unparalleled live experience that transcends boundaries.
+👋 Greetings, esteemed audience! I am Petitlion18, your dedicated host on Bigo Live, where sophistication meets entertainment. Join me for an unparalleled live experience that transcends boundaries.
 
 🎉 What Sets Us Apart:
    - Engaging Live Sessions: Immerse yourself in riveting live broadcasts encompassing a spectrum of content, from high-energy gaming to insightful discussions on trending topics.
