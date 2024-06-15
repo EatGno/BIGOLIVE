@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIGO LIVE Streaming</title>
+</head>
+<body>
+    
+    <div id="streamStatus">
+        <!-- Les données de statut des streams seront insérées ici -->
+        <table id="streamTable">
+            <thead>
+                <tr>
+                    <th>Site</th>
+                    <th>User</th>
+                    <th>Nick</th>
+                    <th>Size</th>
+                    <th>Duration</th>
+                    <th>Path</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in usernameList %}
+                <tr>
+                    <td>{{ item[0] }}</td>
+                    <td>{{ item[1] }}</td>
+                    <td>{{ item[2] }}</td>
+                    <td>{{ item[3] }}</td>
+                    <td>{{ item[4] }}</td>
+                    <td>{{ item[5] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // Rafraîchir automatiquement les données toutes les 2 secondes (par exemple)
+        setInterval(function() {
+            // Mettre à jour les données ici en utilisant AJAX si nécessaire
+            // Exemple :
+            // $.get('/refreshData', function(data) {
+            //     $('#streamTable tbody').html(data);
+            // });
+        }, 2000);  // Rafraîchir toutes les 2 secondes
+    </script>
+</body>
+</html>
