@@ -8,7 +8,7 @@
    - Uplifting Atmosphere: Step into a refined space where positivity and inclusivity form the core of our community.
 
 🌐 Discover More:
-   - 📍 [Explore my Bigo Live profile](https://bigo.onelink.me/1168916328?pid=website&c=0&is_retargeting=true&af_dp=bigolive%3A%2F%2Flivevideoshow%3Froomid%3D7015338174445824037%26uid%3D560092345%26visitor%3D1&af_android_url=&af_web_dp=https%3A%2F%2Fwww.bigo.tv&af_adset=share_0&af_ad=share&af_sub1=)
+   - 📍 [Explore my Bigo Live profile](https://bigo.onelink.me/1168916328?pid=SBLX&c=bigolive%3A%2F%2Flivevideoshow%3Froomid%3D7015338174445824037%26uid%3D560092345%26visitor%3D1%26code%3D6893554100&is_retargeting=true&af_web_dp=https%3A%2F%2Fapps.apple.com%2Fapp%2Fid1077137248&af_dp=bigolive%3A%2F%2Flivevideoshow%3Froomid%3D7015338174445824037%26uid%3D560092345%26visitor%3D1%26code%3D6893554100%26act%3Dact39011&af_dp=${encodeURIComponent(target)}&af_ios_url=${encodeURIComponent(https.www.lionofficiel.blogspot.com)}&af_android_url=${encodeURIComponent(https.www.lionofficiel.blogspot.com)})
 
 🔔 Stay Informed:
    - Subscribe to receive timely notifications, ensuring you never miss a moment of our curated content.
