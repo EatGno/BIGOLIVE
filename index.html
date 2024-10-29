@@ -47,3 +47,107 @@
     </script>
 </body>
 </html>
+<!doctype html>
+
+
+    
+  
+
+🧠𝐿𝒾𝑜𝓃 🦁🤯 - BIGO LIVE
+be yourself and you will know who loves you for who you really are!  😎🙏🦁🌹
+    <script>
+        /eruda=true/.test(window.location) && (document.write('<script src="//cdn.jsdelivr.net/npm/eruda"><\/script>'), document.write("<script>eruda.init();<\/script>"));
+    </script>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        .jumpFail {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            display: none;
+            text-align: center;
+        }
+    </style>
+
+
+<!-- https://www.bigo.tv/fr/sid/2601822245_3793519185_1726081307?c=15&p=2&t=1&b=0&h=petitlion18&invite=3Djmrf  -->
+<!-- bigolive://livevideoshow?roomid=6636477279367664649&uid=1779114310 -->
+<div id="linkBox" data-url="https://ta.bigolive.tv/spring_bigolive_activity/act2021/share39011/mm?code=6893554100&amp;uid=2948801479&amp;room=7015338174445824037&amp;actor=560092345&amp;roomType=1&amp;shareType="></div>
+<div id="deepBox" data-url="bigolive://livevideoshow?roomid=7015338174445824037&amp;uid=560092345&amp;visitor=1"></div>
+
+<!-- 拿不到link和deepLink的跳转失败提示 -->
+<div id="jumpFail" class="jumpFail">
+    <div><img src="//gdl.bigolive.tv/cn/design-works/cng4/M0C/DD/08/GQAwAFzU5jCEf7_3AAAAAAES-xQ990.png"/></div>
+    <p>Please refresh</p>
+</div>
+
+<script>
+    var ua = window.navigator.userAgent || '';
+    var isAndroid = /android/i.test(ua);
+    var isIos = /iphone|ipad|ipod/i.test(ua);
+    // 安卓 chrome 浏览器，很多 app 都是在 chrome 的 ua 上进行扩展的
+    var isOriginalChrome = /chrome\/[\d.]+ Mobile Safari\/[\d.]+/i.test(ua) && isAndroid && ua.indexOf('Version') < 0;
+    var isFaceBook = /FB_IAB/.test(ua);
+    // web页url
+    var linkBox = document.querySelector('#linkBox');
+    // deepLink
+    var deepBox = document.querySelector('#deepBox');
+    var link = linkBox.getAttribute('data-url');
+    var deepLink = deepBox.getAttribute('data-url');
+    var dom_jumpFail = document.querySelector('#jumpFail');
+    var WAIT = 1;
+
+
+    // 点击刷新按钮刷新页面
+    dom_jumpFail.addEventListener('click', function () {
+        location.href = location.href;
+    });
+
+    if (deepLink && link) {
+        // 打开H5页
+        setTimeout(function () {
+            window.location.replace(link);
+        }, WAIT);
+        // if (isIos) {
+        //   // evokeByIFrame(deepLink);
+        //   evokeByTagA(deepLink);
+        // } else if (isFaceBook && isAndroid) { // facebook 系的APP（fb,messager无法调deeplink,会提示页面加载失败）
+        //   window.location.href = link;
+        // } else if (isOriginalChrome) { // 推特走的也是这条语句
+        //   evokeByTagA(deepLink);
+        // } else {
+        //   evokeByIFrame(deepLink);
+        // }
+    } else {
+        dom_jumpFail.style.cssText = 'display: block;';
+    }
+
+    function evokeByIFrame(uri) {
+        var iframe = document.createElement('iframe');
+        iframe.frameborder = '0';
+        iframe.style.cssText = 'display:none;border:0;width:0;height:0;';
+        document.body.appendChild(iframe);
+        iframe.src = uri;
+    }
+
+    function evokeByTagA(uri) {
+        var tagA = document.createElement('a');
+
+        tagA.setAttribute('href', uri);
+        tagA.style.display = 'none';
+        document.body.appendChild(tagA);
+
+        tagA.click();
+    }
+
+</script>
+
+</!doctype>
